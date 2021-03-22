@@ -1,0 +1,99 @@
+/*IKS LOGO Green color code = #57b957*/
+
+.salary-slip {
+    width: 800px;
+    height: 1000px;
+    margin: 25px;
+    font-family: Arial, serif;
+}
+
+.empDetail {
+    width: 100%;
+    text-align: left;
+    border: 2px solid white;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.companyName {
+    text-align: center;
+    font-size: 20px;
+    vertical-align: -10px
+}
+
+.companyDetails {
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.slipMonth {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.table-border-right {
+    border-right: 2px solid gray;
+}
+
+.myBackground {
+    padding-top: 10px;
+    text-align: left;
+    border-radius: 25px;
+    height: 40px;
+    background-color: #57b957;
+    color: white;
+    border-right: 4px solid white;
+}
+
+.myBackground2 {
+    padding-top: 10px;
+    text-align: left;
+    border: 2px solid white;
+    height: 40px;
+}
+
+.myAlign {
+    text-align: right;
+    border-right: 2px solid gray;
+    padding-right: 5px;
+}
+.myAlign2 {
+    text-align: center;
+    border-right: 4px solid white;
+}
+.myAlign3 {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.amount_in_words{
+    border-bottom: 1px solid black;
+    letter-spacing: 4px
+}
+
+th, td {
+    padding-left: 10px;
+    height: 30px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dottedBorder {
+    border-bottom: 1px dotted black;
+    padding-top: 10px;
+    height: 30px;
+}
+
+.com-generated-slip {
+    text-align: center;
+    padding-right: 15px;
+    height: 50px;
+
+}

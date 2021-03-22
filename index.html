@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="scss.css">
+    <title>Document</title>
+</head>
+<body>
+      <div class="salary-slip">
+            <table class="empDetail">
+              <tr height="100px" >
+                <td colspan='6' class="companyName"><h1> IKS Logics (Private) Limited</h1>
+                  <small style="vertical-align: 35px">76 H-2 Wapda Town - 54770 - PH: 042-35184073 </small>
+                </td>
+                <td colspan='2'><img height="120px" src='logo.png'  alt="image is missing" class="center"/></td>
+              </tr>
+
+              <tr><td colspan='8' class="slipMonth"><span id="DateTime"></span></td></tr>
+
+              <tr>
+                <td colspan='4' class="table-border-right">Employee No :<span id="employee_no"> dummy</span></td>
+                <td colspan='4'>CNIC :<span id="cnic" style="margin-left: 2em">: cnic</span></td>
+              </tr>
+              <tr>
+                <td colspan='4' class="table-border-right">Name :<span id="employee_name" style="margin-left: 3.25em"> emp_hi</span></td>
+                <td colspan='4'>Bank :<span style="margin-left: 2.15em"> Bank Alflah Islamic</span></td>
+              </tr>
+              <tr>
+                <td colspan='4' class="table-border-right">Designation :<span id="designation" style="margin-left: 0.65em"> ceo</span></td>
+                <td colspan='4'>Account # :<span id="ac_no" style="margin-left: 0.05em">id_is_is</span></td>
+              </tr>
+              <tr class="myBackground">
+                <th colspan="3">Description</th>
+                <td colspan="1" class="myAlign2">Amount</td>
+                <th colspan="3">Deductions</th>
+                <td colspan="1" class="myAlign">Amount</td>
+              </tr>
+              <tr class="dottedBorder">
+                <td colspan="3">Basic Salary
+                <td colspan="1" class="myAlign"><span id="basic_salary">NO</span></td>
+                <td colspan="3">Income Tax/ Month</td>
+                <td colspan="1" class="myAlign3"><span id="income_tax">Yes</span></td>
+              </tr >
+              <tr class="dottedBorder">
+                <td colspan="3">Medical Allowance
+                <td colspan="1" class="myAlign"><span id="medical_allowance">some value</span></td>
+                <td colspan="3">Loan Returned</td>
+                <td colspan="1" class="myAlign3"><span id="loan_returned">some value</span></td>
+              </tr >
+              <tr class="dottedBorder">
+                <td colspan="3">Advance/ Loan</td>
+                <td colspan="1" class="myAlign"><span id="advance_loan">some value</span></td>
+                <td colspan="3">Lunch Expense</td>
+                <td colspan="1" class="myAlign3"><span id="lunch_expense"></span></td>
+              </tr >
+              <tr class="dottedBorder">
+                <td colspan="3">Bonus/ Arrears</td>
+                <td colspan="1" class="myAlign"><span id="arrears"></span></td>
+                <td colspan="3">WFH deduction</td>
+                <td colspan="1" class="myAlign3"><span id="wfh_deduction"></span></td>
+              </tr >
+              <tr class="dottedBorder">
+                <td colspan="3">Internet</td>
+                <td colspan="1" class="myAlign"><span id="internet"></span></td>
+                <td colspan="3">Unpaid Leaves <span id="unpaid_leaves"></span></td>
+                <td colspan="1" class="myAlign3"><span id="unpaid_leaves_amount">some value</span></td>
+              </tr >
+              <tr class="dottedBorder">
+                <td colspan="3">Lunch Expense .co</td>
+                <td colspan="1" class="myAlign"><span id="lunch_expense_co">some value</span></td>
+                <td colspan="3"></td>
+                <td colspan="1"></td>
+              </tr >
+              <tr class="dottedBorder">
+                <td colspan="3">Food Reimbursement</td>
+                <td colspan="1" class="myAlign"><span id="food_reimbursement">some value</span></td>
+                <td colspan="3"></td>
+                <td colspan="1"></td>
+              </tr >
+              <tr class="dottedBorder">
+                <td colspan="3">Travel Expense Reimbursement</td>
+                <td colspan="1" class="myAlign"><span id="travel_reimbursement"></span></td>
+                <td colspan="3"></td>
+                <td colspan="1"></td>
+              </tr >
+              <tr class="dottedBorder">
+                <td colspan="3">EOBI .co Share</td>
+                <td colspan="1" class="myAlign"><span id="eobi_co_share"></span></td>
+                <td colspan="3"></td>
+                <td colspan="1"></td>
+              </tr >
+                  <!--  Extra Rows   -->
+              <tr class="dottedBorder">
+                <td colspan="3"></td>
+                <td colspan="1" class="myAlign"></td>
+                <td colspan="3"></td>
+                <td colspan="1"></td>
+              </tr >
+              <tr>
+                <td colspan="3"></td>
+                <td colspan="1" class="myAlign"></td>
+                <td colspan="3"></td>
+                <td colspan="1"></td>
+              </tr >
+
+              <tr class="myBackground2" style="border-top: 2px solid black;">
+                <th colspan="3">Total Receivable</th>
+                <th class="myAlign"><span id="total_receivable"></span></th>
+                <th colspan="3" >Total Deductions</th >
+                <th class="myAlign3"><span id="total_deduction"></span></th>
+              </tr >
+              <tr class="myBackground">
+                <th colspan="6" >Net Payable Salary</th >
+                <th colspan="2" class="myAlign3" ><b><span id="net_salary"></span></b></th>
+              </tr >
+              <tr>
+                <td colspan="8" class="amount_in_words">Amount in Words : <span id="amount_in_words">dummy amount one two three</span></td>
+              </tr >
+              <tr>
+                <td colspan="8" class="com-generated-slip"><sub>* This is a computer-generated slip and does not require any stamp.</sub> </td>
+              </tr >
+            </table >
+      </div >
+</body>

@@ -1,0 +1,1 @@
+this folder will be used to save Generated slips of IKS Logics employees
